@@ -3,7 +3,7 @@ Copyright (C) 2013 The Dasher Project
 This file is free documentation; the Dasher Project gives unlimited
 permission to copy, distribute and modify it.
 
-Basic Installation 
+# Basic Installation of Java 
 ==================
 
 Dasher makes use of the GNU autotools system (automake, autoconf
@@ -11,7 +11,7 @@ etc.), which are described in the 'INSTALL' file.  The following is
 specific to building and installing Dasher on JAVA.  The Dasher
 maintainer documentation is at http://live.gnome.org/Dasher.
 
-!IMPORTANT NOTE BEFORE STARTING
+## !IMPORTANT NOTE BEFORE STARTING
 
 This project builds an applet, not a standalone application.
 https://github.com/dasher-project/dasher/blob/master/java/src/main/java/dasher/applet/JDasherApplet.java is the entry point
