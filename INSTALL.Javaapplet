@@ -14,9 +14,6 @@ maintainer documentation is at http://live.gnome.org/Dasher.
 ## !IMPORTANT NOTE BEFORE STARTING
 
 This project builds an applet, not a standalone application.
-https://github.com/dasher-project/dasher/blob/master/java/src/main/java/dasher/applet/JDasherApplet.java is the entry point
-
-https://github.com/dasher-project/dasher/blob/master/java/src/main/java/dasher/applet/test.htm shows how you run that from within an HTML page.
 
 This is all obviously quite old, and some modern browsers (notably Chrome and Edge) don't support Java applets anymore. However, as of the time of writing 
 (and checking https://superuser.com/questions/1213341/how-to-get-a-browser-that-supports-java), Internet Explorer and Firefox ESR should still be able to show JDasher.
@@ -81,6 +78,11 @@ Let's try the easy route first:
 
 		$ ./gradlew build
 	
+	Running Project
+		https://github.com/dasher-project/dasher/blob/master/java/src/main/java/dasher/applet/JDasherApplet.java is the entry point.
+
+		https://github.com/dasher-project/dasher/blob/master/java/src/main/java/dasher/applet/test.htm shows how you run that from within an HTML page.
+
 
 The Contributor’s Guide
 =======================
